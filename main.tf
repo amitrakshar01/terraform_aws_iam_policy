@@ -1,6 +1,7 @@
 provider "aws" {
   region = "eu-central-1"
 }
+
 resource "aws_iam_policy" "policy" {
   name        = "test_policy"
   path        = "/"
